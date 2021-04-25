@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    margin: 0;
+  }
+  
+  .footer a {
+    color: #fff;
+  }
+  
+  .footer a:hover {
+    color: orange;
+  }
+  
+  .footer .social > * {
+    padding: 20px;
+  }
+  
+  .bg-dark {
+    background: #444;
+  }
+  
+  .footer p {
+    text-align: center;
+    color: #fff;
+    padding-top: 5px;
+  }
+  
+  .fab{
+      color:#fff;
+  }
