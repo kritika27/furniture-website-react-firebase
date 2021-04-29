@@ -48,17 +48,16 @@ const Navbar = () => {
           </ul>
 
           {firstName ? (
-            <button>
-              <Link
-                to="/"
-                onClick={() => {
-                  auth().signOut();
-                  setFirstName("");
-                }}
-              >
-                Sign Out
-              </Link>
-            </button>
+            <Link
+              to="/"
+              onClick={() => {
+                auth().signOut();
+                setFirstName("");
+              }}
+            >
+              {" "}
+              <button className="btn">Sign Out</button>
+            </Link>
           ) : (
             <button className="btn" onClick={googleSignIn}>
               Sign Up

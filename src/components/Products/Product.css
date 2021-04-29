@@ -90,6 +90,7 @@ Variables
   }
   .error-container {
     text-align: center;
+
     text-transform: capitalize;
   }
   /* 
@@ -103,9 +104,14 @@ Variables
     justify-content:space-between;
     align-items: center;
   }
-  .content-prod{
-    padding:20px;
-    
+  
+    .product-title{
+      font-weight: bold;
+      font-size: 45px;
+      margin-bottom:2rem;
+  }
+  .center{
+    text-align:center;
   }
   .section {
     padding: 5rem 0;
