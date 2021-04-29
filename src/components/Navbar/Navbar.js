@@ -32,7 +32,7 @@ const Navbar = () => {
       <nav id="nav">
         <div className="container">
           <h1 className="logo">
-            <i className="fa fa-cutlery"></i> Wooden Arts
+            <i className="fa fa-home"></i>Wooden Arts
           </h1>
 
           <ul className="links">
@@ -45,24 +45,25 @@ const Navbar = () => {
             <li>
               <Link to="/products">Products</Link>
             </li>
-            <li>
-              {firstName ? (
-                <button>
-                  <Link
-                    to="/"
-                    onClick={() => {
-                      auth().signOut();
-                      setFirstName("");
-                    }}
-                  >
-                    Sign Out
-                  </Link>
-                </button>
-              ) : (
-                <button onClick={googleSignIn}>Sign Up</button>
-              )}
-            </li>
           </ul>
+
+          {firstName ? (
+            <button>
+              <Link
+                to="/"
+                onClick={() => {
+                  auth().signOut();
+                  setFirstName("");
+                }}
+              >
+                Sign Out
+              </Link>
+            </button>
+          ) : (
+            <button className="btn" onClick={googleSignIn}>
+              Sign Up
+            </button>
+          )}
         </div>
       </nav>
     </header>
