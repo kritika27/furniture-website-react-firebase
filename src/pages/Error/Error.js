@@ -7,12 +7,13 @@ const Error = () => {
     <div className="err">
       <img
         style={{ height: "60vh", width: "35vw" }}
-        src="https://raw.githubusercontent.com/kritika27/ecommerce-store-reactjs-stripe-oauth2/main/public/images/Q2BAOd2.png"
+        src="../../images/undraw_page_not_found_su7k.svg"
+        //src="https://raw.githubusercontent.com/kritika27/ecommerce-store-reactjs-stripe-oauth2/main/public/images/Q2BAOd2.png"
         alt="404 error"
       />
-      <h3>This Page Is Not On The Map.</h3>
+      <h2>This Page Is Not On The Map.</h2>
       <Link to="/">
-        <button className="button">Back to Home</button>
+        <button className="btn">Back to Home</button>
       </Link>
     </div>
   );
