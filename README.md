@@ -6,7 +6,7 @@ This is a Furniture Business Website which displays different products and allow
 
 ## Demo
 
-👉 [To be added](To be added)
+👉 [Link](https://dazzling-albattani-296dee.netlify.app/)
 
 ## Screenshots
 
@@ -17,7 +17,7 @@ About Page
 ![about](https://user-images.githubusercontent.com/4997491/116610126-c99f3a00-a952-11eb-8391-ab26fc978526.JPG)
 
 Products Page
-To be added.
+![Capture](https://user-images.githubusercontent.com/4997491/116618418-aaa5a580-a95c-11eb-9682-144b4f2427fe.JPG)
 
 404 Error Page
 ![error](https://user-images.githubusercontent.com/4997491/116610617-200c7880-a953-11eb-8c5a-f4f5ab044f9a.JPG)
