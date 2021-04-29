@@ -1,18 +1,20 @@
 import React from "react";
 import Footer from "./../Footer/Footer";
 import Form from "./../Form/Form";
-import Hero from "./../Hero/Hero";
+import Featured from "../../components/Featured/Featured";
 import Services from "./../Services/Services";
+import Temp from "../Temp";
 
 export default function Home() {
   return (
     <>
-      <Hero />
-      {/*featured products*/}
+      <Temp />
+
+      <Featured />
       <Services />
-      {/*blog*/
-      /*image gallery*/}
+
       <Form />
+
       <Footer />
     </>
   );
