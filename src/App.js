@@ -1,6 +1,4 @@
 import React from "react";
-//import About from "./components/About/About";
-//import Furniture from "./components/Furniture";
 import Error from "./pages/Error/Error";
 import Home from "./components/Home/Home";
 import Navbar from "./components/Navbar/Navbar";
