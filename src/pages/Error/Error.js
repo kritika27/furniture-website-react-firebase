@@ -8,7 +8,6 @@ const Error = () => {
       <img
         style={{ height: "60vh", width: "35vw" }}
         src="../../images/undraw_page_not_found_su7k.svg"
-        //src="https://raw.githubusercontent.com/kritika27/ecommerce-store-reactjs-stripe-oauth2/main/public/images/Q2BAOd2.png"
         alt="404 error"
       />
       <h2>This Page Is Not On The Map.</h2>
