@@ -3,18 +3,15 @@ import Footer from "./../Footer/Footer";
 import Form from "./../Form/Form";
 import Featured from "../../components/Featured/Featured";
 import Services from "./../Services/Services";
-import Temp from "../Temp";
+import Hero from "../../components/Hero/Hero";
 
 export default function Home() {
   return (
     <>
-      <Temp />
-
+      <Hero />
       <Featured />
       <Services />
-
       <Form />
-
       <Footer />
     </>
   );

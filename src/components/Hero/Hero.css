@@ -1,94 +1,48 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding:0;
-  }
-  
-  body {
-    font-family: "Roboto", sans-serif;
-  }
-  
-  .wrapper {
-    width: 900px;
-    margin: 0 auto;
-  }
-  
-  /* Header */
-  
-  .header-container {
-   
-    height: calc(100vh - 72px);
-    display: flex;
+.product-center {
+  display: grid;
+  gap: 4rem;
+  margin-top: 2rem;
+}
+.price-prod {
+  color: #444;
+}
+.description p {
+  line-height: 2;
+  max-width: 45em;
+}
+.info-prod {
+  text-transform: capitalize;
+  width: 300px;
+  display: grid;
+  grid-template-columns: 125px 1fr;
+}
+span {
+  font-weight: 700;
+}
+.review {
+  color: orange;
+}
+
+
+@media (min-width: 992px) {
+  .product-center {
+    grid-template-columns: 1fr 1fr;
     align-items: center;
-    border:2px solid red;
   }
-  
-  .hero {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  .price-prod {
+    font-size: 1.25rem;
   }
-  
-  .hero h1 {
-    font-weight: 900;
-    font-size: 64px;
-    line-height: 75px;
-    color: #021718;
-    margin-bottom: 24px;
+  .review {
+    color: orange;
   }
-  
-  .hero p {
-    font-size: 24px;
-    line-height: 42px;
-    color: #021718;
-    width: 418px;
-  
-    margin-bottom: 48px;
+  .description {
+      line-height: 2rem;
+      font-weight:400;
+      
+    }
+  .content-prod h1{
+      font-weight: bold;
+      font-size: 45px;
+      margin-bottom:2rem;
   }
-  
-  .hero a {
-    color: #fffffa;
-    font-size: 24px;
-    text-decoration: none;
-  
-    background: #01847f;
-    border-radius: 8px;
-    padding: 12px 48px;
-    display: inline-block;
-    transition: 300ms;
-  }
-  
-  .hero a:hover {
-    transform: translateY(-8px);
-  }
-  
-  
-  
-  /* Hero image */
-  
-  .hero .hero-image {
-    position: relative;
-  }
-  
-  .hero .hero-image img {
-    transition: 300ms;
-    position: relative;
-    z-index: 100;
-  }
-  
-  .hero .hero-image img:hover {
-    transform: rotate(-6deg);
-  }
-  
-  .hero .hero-image {
-    position: absolute;
-    width: 400px;
-    height: 400px;
-    left: 800px;
-    top: 90px;
-  
-    background: #44a1a0;
-    transform: rotate(-6deg);
-  }
-  
-  
+}
