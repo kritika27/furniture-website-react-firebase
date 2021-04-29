@@ -1,11 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import data from "./data";
+import Footer from "./../Footer/Footer";
 import "./Product.css";
+
 const ProductList = () => {
   return (
     <>
-      {/*} <PageHero item={products.length} name="PRODUCTS" />*/}
       <div className="cocktails-center">
         {data.map((product) => {
           const { id, image, name, price } = product;
@@ -19,15 +19,12 @@ const ProductList = () => {
                   <h4>{name}</h4>
                   <h4 className="price">${price}</h4>
                 </div>
-
-                <Link to={`/products/${id}`} className="prod-details">
-                  <button>View</button>
-                </Link>
               </div>
             </article>
           );
         })}
       </div>
+      <Footer />
     </>
   );
 };
