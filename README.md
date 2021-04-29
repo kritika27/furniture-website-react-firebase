@@ -11,19 +11,16 @@ This is a Furniture Business Website which displays different products and allow
 ## Screenshots
 
 Homepage
-To be added.
-
-Login Popup
-To be added.
+![home](https://user-images.githubusercontent.com/4997491/116609982-a3799a00-a952-11eb-9001-6c24418debba.JPG)
 
 About Page
-To be added.
+![about](https://user-images.githubusercontent.com/4997491/116610126-c99f3a00-a952-11eb-8391-ab26fc978526.JPG)
 
 Products Page
 To be added.
 
 404 Error Page
-To be added.
+![error](https://user-images.githubusercontent.com/4997491/116610617-200c7880-a953-11eb-8c5a-f4f5ab044f9a.JPG)
 
 ## Installation
 
