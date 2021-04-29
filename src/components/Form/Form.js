@@ -15,9 +15,9 @@ export default function Form() {
           </div>
           <div className="column">
             <div className="column-2 bg-light">
-              <h2>Blog Posts</h2>
+              <h2 style={{ fontWeight: 600 }}>Blog Posts</h2>
               <form action="" class="callback-form">
-                <div className="form-control">
+                <div className="description">
                   <p>
                     {" "}
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -27,7 +27,7 @@ export default function Form() {
                   </p>
                 </div>
 
-                <button>Read More</button>
+                <button className="btn">Read More</button>
               </form>
             </div>
           </div>
