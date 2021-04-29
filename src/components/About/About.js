@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../temp.css";
+import "../../components/Hero/Hero";
 
 const About = () => {
   return (
