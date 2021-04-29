@@ -7,9 +7,9 @@ export default function Services() {
       <section id="about" className="icons bg-light">
         <div className="flex-items">
           <div>
-            <i className="fa fa-university fa-2x"></i>
+            <i className="fa fa-truck fa-2x"></i>
             <div>
-              <h3>Investment Banking</h3>
+              <h3>Fast Delivery</h3>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Tempore, iusto!
@@ -17,9 +17,9 @@ export default function Services() {
             </div>
           </div>
           <div>
-            <i className="fa fa-book fa-2x"></i>
+            <i className="fa fa-check fa-2x"></i>
             <div>
-              <h3>Portfolio Manager</h3>
+              <h3>Tested Quality Products</h3>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Tempore, iusto!
@@ -27,9 +27,9 @@ export default function Services() {
             </div>
           </div>
           <div>
-            <i className="fa fa-pencil fa-2x"></i>
+            <i className="fa fa-wrench fa-2x"></i>
             <div>
-              <h3>Tax Custodial</h3>
+              <h3>Repair Services</h3>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Tempore, iusto!
