@@ -78,9 +78,11 @@ a {
         flex-direction: column;
         align-items: center;
         height:27vh;
+        margin-bottom:5px;
         
       }
       .links li:hover{
           border:none;
       }
 }
+

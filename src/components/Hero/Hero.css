@@ -7,7 +7,7 @@
   color: #444;
 }
 .description p {
-  line-height: 2;
+  line-height: 1.5rem;
   max-width: 45em;
 }
 .info-prod {
@@ -22,7 +22,10 @@ span {
 .review {
   color: orange;
 }
-
+.content-prod h1{
+  margin-bottom:2rem;
+  font-weight: bold;
+}
 
 @media (min-width: 992px) {
   .product-center {

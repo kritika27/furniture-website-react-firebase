@@ -116,11 +116,18 @@
     padding: 0 4px;
 }
 
+.description p{
+    line-height:2rem;
+}
 
 /* Mobile */
 @media(max-width: 768px) {
-   
-
+   .content-prod{
+padding:40px;
+   }
+   .description p{
+    line-height:2rem;
+}
     .flex-items {
         flex-direction: column;
     }
