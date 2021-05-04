@@ -1,10 +1,7 @@
 import React from "react";
-import Error from "./pages/Error/Error";
-import Home from "./components/Home/Home";
-import Navbar from "./components/Navbar/Navbar";
-import ProductList from "./components/Products/ProductList";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import About from "./components/About/About";
+import { About, Error, Home, ProductList } from "./pages/index.js";
+import Navbar from "./components/Navbar/Navbar";
 
 export default function App() {
   return (
