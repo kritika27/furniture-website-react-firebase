@@ -3,7 +3,8 @@ import "./Services.css";
 
 export default function Services() {
   return (
-    <div>
+    <>
+      <h1 className="product-title center">Services</h1>
       <section id="about" className="icons bg-light">
         <div className="flex-items">
           <div>
@@ -38,6 +39,6 @@ export default function Services() {
           </div>
         </div>
       </section>
-    </div>
+    </>
   );
 }

@@ -1,11 +1,11 @@
 import React from "react";
-import data from "../Products/data";
-import "../Products/Product.css";
+import data from "../../data";
+import "../../pages/Products/Product.css";
 
 const Featured = () => {
   return (
     <>
-      {/*title*/}
+      <h1 className="product-title center">Featured</h1>
       <div className="cocktails-center">
         {data
           .filter((item) => item.featured === true)
