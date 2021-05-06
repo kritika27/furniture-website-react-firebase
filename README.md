@@ -6,7 +6,7 @@ This is a Furniture Business Website which displays different products and allow
 
 ## Demo
 
-👉 [Link](https://dazzling-albattani-296dee.netlify.app/)
+👉 [Link](https://inspiring-rosalind-d587a9.netlify.app/)
 
 ## Screenshots
 
