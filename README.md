@@ -28,7 +28,7 @@ Step 1
 🍴 Fork this repo!
 
 Step 2
-👯 Clone this repo to your local machine using
+👯 Clone this repo to your local machine using https://github.com/kritika27/furniture-website-react-firebase.git
 
 Step 3
 HACK AWAY! 🔨🔨🔨
